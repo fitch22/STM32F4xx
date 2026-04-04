@@ -120,10 +120,10 @@
 // Alt. spindle PWM output, comment out definitions above and uncomment these to change:
 //#define AUXOUTPUT0_PORT             GPIOE // Spindle PWM, SERVOS pin 1
 //#define AUXOUTPUT0_PIN              5
-#define AUXOUTPUT1_PORT             GPIOB // Spindle direction, FAN2
-#define AUXOUTPUT1_PIN              5
-#define AUXOUTPUT2_PORT             GPIOB // Spindle enable, FAN1
-#define AUXOUTPUT2_PIN              6
+#define AUXOUTPUT1_PORT             GPIOE // Spindle direction, EXP1 pin 7
+#define AUXOUTPUT1_PIN              12
+#define AUXOUTPUT2_PORT             GPIOE // Spindle enable, EXP1 pin 8
+#define AUXOUTPUT2_PIN              13
 #define AUXOUTPUT3_PORT             GPIOB // Coolant flood
 #define AUXOUTPUT3_PIN              3
 #define AUXOUTPUT4_PORT             GPIOB // Coolant mist
